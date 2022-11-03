@@ -2,6 +2,8 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Switch from "react-switch";
+import { MdDarkMode } from "react-icons/md";
+import { HiLightningBolt } from "react-icons/hi";
 
 type Props = {};
 
@@ -59,7 +61,22 @@ const Header = (props: Props) => {
         {/* <span className='md:hidden'>
           <ReactNavbar />
         </span> */}
-        <Switch className="mx-2" onChange={() => {}} checked />
+        <Switch
+          className="mx-2"
+          onChange={() => {}}
+          checked={false}
+          // checked
+          uncheckedIcon={
+            <HiLightningBolt className="absolute top-[4px] right-[8px]" />
+          }
+          checkedIcon={
+            <MdDarkMode className="invert absolute top-[5px] left-[7px]" />
+          }
+          onColor="#000000"
+          offColor="#00FF00"
+          height={26}
+          width={52}
+        />
       </motion.div>
     </header>
   );
