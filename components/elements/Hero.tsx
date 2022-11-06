@@ -8,6 +8,7 @@ import "react-simple-typewriter/dist/index";
 // import { loadFull } from "tsparticles";
 // import { particles } from '../../Particles/Particles'
 import yup from "../../assets/gifs/yup.gif";
+// import cat from "../../assets/gifs/cat.gif";
 
 type Props = {};
 
@@ -36,11 +37,11 @@ const Hero = (props: Props) => {
     <section className="flex items-center justify-center flex-col h-screen">
       <motion.div
         className="gif"
-        initial={{ y: -1000, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1.5 }}
+        // initial={{ y: -1000, opacity: 0 }}
+        // animate={{ y: 0, opacity: 1 }}
+        // transition={{ duration: 1.5 }}
       >
-        <Image src={yup} width={300} height={300} />
+        <Image src={yup} width={300} height={300} alt={"yup"} />
       </motion.div>
       {/* <canvas id='canvas' className='bg-[#2c343f] w-full h-max'></canvas> */}
       {/* <Particles
@@ -66,9 +67,9 @@ const Hero = (props: Props) => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 2 }}
           >
-            <button className="w-full bg-[#09363F] border-2 border-black text-white px-5 py-[0.6rem] text-[1.35rem] tracking-[0.7rem] duration-[0.2s] ">
+            {/* <button className="w-full bg-[#09363F] border-2 border-black text-white px-5 py-[0.6rem] text-[1.35rem] tracking-[0.7rem] duration-[0.2s] ">
               RESUME
-            </button>
+            </button> */}
           </motion.div>
         </motion.div>
       </motion.div>
