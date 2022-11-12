@@ -2,7 +2,7 @@ import React from "react";
 import type { NextPage } from "next";
 import Script from "next/script";
 // import Image from 'next/image';
-import { Hero, Projects, Footer, Tagline } from "../components";
+import { Hero, Projects, Footer, Tagline, Header } from "../components";
 import Head from "next/head";
 
 const Home: NextPage = () => {
@@ -16,6 +16,7 @@ const Home: NextPage = () => {
       {/* <Script type='text/javascript' src="./index/animate.js"></Script> */}
 
       <main className=" md:w-[90%] min-h-screen">
+        <Header />
         <Hero />
         <Projects />
         <Tagline />

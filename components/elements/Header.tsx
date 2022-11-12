@@ -10,74 +10,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    // <header className="flex items-center justify-between py-[0.8rem] px-[0.5rem] max-w-[75rem] mx-auto">
-    //   <motion.div
-    //     initial={{ x: -500, opacity: 0, scale: 0.5 }}
-    //     animate={{ x: 0, opacity: 1, scale: 1 }}
-    //     transition={{ duration: 1.1 }}
-    //     className="flex justify-center items-center"
-    //   >
-    //     <span className="ml-3 text-base font-shadow uppercase tracking-[2px]">
-    //       Ekanshu
-    //     </span>
-    //     <SocialIcon
-    //       url="https://linkedin.com/in/ekanshuj"
-    //       bgColor="transparent"
-    //       fgColor="gray"
-    //     />
-    //     <SocialIcon
-    //       url="https://github.com/ekanshuj"
-    //       bgColor="transparent"
-    //       fgColor="gray"
-    //     />
-    //     <SocialIcon
-    //       url="https://hashnode.com/@ekanshuj"
-    //       bgColor="transparent"
-    //       fgColor="gray"
-    //       network="hashnode"
-    //     />
-    //     <SocialIcon
-    //       url="https://showwcase.com/ekanshuj"
-    //       bgColor="transparent"
-    //       fgColor="gray"
-    //       network="showwcase"
-    //     />
-    //   </motion.div>
-    // <motion.div
-    //   initial={{ x: 500, opacity: 0, scale: 0.5 }}
-    //   animate={{ x: 0, opacity: 1, scale: 1 }}
-    //   transition={{ duration: 1.1 }}
-    //   className="flex justify-center items-center cursor-pointer"
-    // >
-    //   {/* <p className='uppercase hidden md:inline-flex text-sm '>Send a Hi /\</p> */}
-    //   {/* <span className='md:hidden'>
-    //     <ReactNavbar />
-    //   </span> */}
-    //   <Switch
-    //     className="mx-2"
-    //     onChange={() => {}}
-    //     checked={false}
-    //     // checked
-    //     uncheckedIcon={
-    //       <HiLightningBolt
-    //         color="#ffff00"
-    //         className="absolute top-[4px] right-[8px]"
-    //       />
-    //     }
-    //     checkedIcon={
-    //       <MdDarkMode
-    //         className="invert absolute top-[4px] left-[7px]"
-    //         size={"1.1rem"}
-    //       />
-    //     }
-    //     onColor="#000000"
-    //     offColor="#C8E7FF"
-    //     height={26}
-    //     width={52}
-    //   />
-    // </motion.div>
-    // </header>
-    <header className="flex items-center justify-between py-[0.8rem] px-[0.5rem] max-w-[75rem] mx-auto">
+    <header className="flex items-center justify-between py-[0.8rem] px-[0.5rem] w-full sm:max-w-[75rem] mx-auto">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}

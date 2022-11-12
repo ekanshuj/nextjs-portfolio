@@ -8,7 +8,6 @@ import "react-simple-typewriter/dist/index";
 // import { loadFull } from "tsparticles";
 // import { particles } from '../../Particles/Particles'
 import yup from "../../assets/gifs/yup.gif";
-// import cat from "../../assets/gifs/cat.gif";
 
 type Props = {};
 
@@ -41,7 +40,7 @@ const Hero = (props: Props) => {
         // animate={{ y: 0, opacity: 1 }}
         // transition={{ duration: 1.5 }}
       >
-        <Image src={yup} width={300} height={300} alt={"yup"} />
+        <Image src={yup} width={300} height={300} alt={"yup"} priority />
       </motion.div>
       {/* <canvas id='canvas' className='bg-[#2c343f] w-full h-max'></canvas> */}
       {/* <Particles
