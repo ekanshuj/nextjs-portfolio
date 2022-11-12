@@ -21,10 +21,10 @@ const Projects = (props: Props) => {
             </div>
           </div>
 
-          <div className="px-5 mx-auto text-white">
+          <div className="mx-auto text-white">
             <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-80 group max-w-xl">
+                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-96 sm:h-80 group sm:max-w-xl">
                   <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
@@ -78,7 +78,7 @@ const Projects = (props: Props) => {
                 />
               </div>
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-sm">
+                <div className="overflow-hidden bg-cover cursor-pointer max-w-96 h-60 sm:max-w-sm">
                   <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
@@ -86,7 +86,7 @@ const Projects = (props: Props) => {
 
             <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-80 max-w-xl">
+                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-96 sm:h-80 sm:max-w-xl">
                   <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
@@ -136,7 +136,7 @@ const Projects = (props: Props) => {
                 />
               </div>
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-[30rem]">
+                <div className="overflow-hidden bg-cover cursor-pointer max-w-96 h-60 sm:max-w-[30rem]">
                   <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>

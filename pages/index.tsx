@@ -8,7 +8,7 @@ import Head from "next/head";
 const Home: NextPage = () => {
   return (
     // <div>
-    <div className="grid place-items-center overflow-hidden">
+    <div className="grid place-items-center">
       <Head>
         <title>Ekanshu Joshi</title>
         <meta name="description" content="Ekanshu Joshi Portfolio Website" />
