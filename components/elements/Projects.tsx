@@ -10,7 +10,7 @@ type Props = {};
 const Projects = (props: Props) => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 w-full">
         <div className="w-full px-6 py-10 mx-auto">
           <div className="flex flex-wrap w-full mb-10">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -21,14 +21,14 @@ const Projects = (props: Props) => {
             </div>
           </div>
 
-          <div className="container px-5 mx-auto text-white">
-            <div className="flex items-center lg:w-[90%] mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col gap-8">
+          <div className="px-5 mx-auto text-white">
+            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-80 group">
-                  <Image src={lord} alt={"lord"} className="max-w-xl" />
+                <div className="overflow-hidden bg-cover cursor-pointer h-80 group max-w-xl">
+                  <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
-              <div className="sm:text-left text-center mt-6 sm:mt-0">
+              <div className="flex-grow text-center mt-6 sm:mt-0">
                 <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
                   Nextjs - Sanity Portfolio
                 </h2>
@@ -52,8 +52,8 @@ const Projects = (props: Props) => {
               </div>
             </div>
 
-            <div className="flex items-center lg:w-[90%] mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col gap-8">
-              <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
+              <div className="flex-grow text-center mt-6 sm:mt-0">
                 <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
                   React Chat Application
                 </h2>
@@ -78,19 +78,19 @@ const Projects = (props: Props) => {
                 />
               </div>
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-60">
-                  <Image src={lord} alt={"lord"} className="max-w-sm" />
+                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-sm">
+                  <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
             </div>
 
-            <div className="flex items-center lg:w-[90%] mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col gap-8">
+            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-80">
-                  <Image src={lord} alt={"lord"} className="max-w-xl" />
+                <div className="overflow-hidden bg-cover cursor-pointer h-80 max-w-xl">
+                  <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
-              <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+              <div className="flex-grow text-center mt-6 sm:mt-0">
                 <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
                   React Netflix Clone
                 </h2>
@@ -114,8 +114,8 @@ const Projects = (props: Props) => {
               </div>
             </div>
 
-            <div className="flex items-center lg:w-[90%] mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col gap-8">
-              <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
+              <div className="flex-grow text-center mt-6 sm:mt-0">
                 <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
                   Command Line Interface - CLi
                 </h2>
@@ -136,8 +136,8 @@ const Projects = (props: Props) => {
                 />
               </div>
               <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-60">
-                  <Image src={lord} alt={"lord"} className="max-w-[30rem]" />
+                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-[30rem]">
+                  <Image src={lord} alt={"lord"} className="" />
                 </div>
               </Tilt>
             </div>

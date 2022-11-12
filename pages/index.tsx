@@ -7,7 +7,8 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className="grid place-items-center">
+    // <div>
+    <div className="grid place-items-center overflow-hidden">
       <Head>
         <title>Ekanshu Joshi</title>
         <meta name="description" content="Ekanshu Joshi Portfolio Website" />
@@ -15,7 +16,8 @@ const Home: NextPage = () => {
       </Head>
       {/* <Script type='text/javascript' src="./index/animate.js"></Script> */}
 
-      <main className=" md:w-[90%] min-h-screen">
+      {/* <main className="w-full sm:w-[90%] min-h-screen"> */}
+      <main className="w-full min-h-screen">
         <Header />
         <Hero />
         <Projects />
