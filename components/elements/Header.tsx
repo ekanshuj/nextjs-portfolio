@@ -10,7 +10,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="flex items-center justify-between py-[0.8rem] px-[0.5rem] sm:px-10 w-full sm:max-w-[85rem] mx-auto">
+    <header className="flex justify-between items-center px-2 py-2 sm:py-4 sm:px-2 sm:p-0 sm:max-w-[75rem] mx-auto absolute inset-x-0 top-0">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}

@@ -3,143 +3,81 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { SocialIcon } from "react-social-icons";
 
-import lord from "../../assets/Images/lord.jpg";
+import chatter from "../../assets/Images/chatter.png";
+import netflix from "../../assets/Images/netflix.png";
+import portfolio from "../../assets/Images/portfolio.png";
 
 type Props = {};
 
 const Projects = (props: Props) => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 w-full">
-        <div className="w-full px-6 py-10 mx-auto">
-          <div className="flex flex-wrap w-full mb-10">
-            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-2 text-white font-shadow tracking-[7px]">
-                Things I’ve Built
-              </h1>
-              <div className="h-1 w-28 bg-indigo-500 rounded"></div>
-            </div>
+      <section className="min-h-screen">
+        <div>
+          <div className="bg-gray-900 flex items-center justify-start flex-wrap border-1 border-yellow-500">
+            <h1 className="sm:text-4xl text-[1.7rem] font-semibold title-font mb-2 text-white font-shadow tracking-[7px]">
+              Things I’ve Built
+            </h1>
           </div>
-
-          <div className="mx-auto text-white">
-            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
-              <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-96 sm:h-80 group sm:max-w-xl">
-                  <Image src={lord} alt={"lord"} className="" />
+          <div className="grid items-center">
+            <div className="bg-gray-900 py-5  my-3">
+              <div className="container mx-auto">
+                <div className="flex items-center justify-center bg-white">
+                  <h2>React Chat Application</h2>
                 </div>
-              </Tilt>
-              <div className="flex-grow text-center mt-6 sm:mt-0">
-                <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
-                  Nextjs - Sanity Portfolio
-                </h2>
-                <p className="leading-relaxed text-base font-shadow tracking-[3px] space-x-2">
-                  <span>Next.js</span>
-                  <span>Tailwind</span>
-                  <span>Sanity.io</span>
-                  <span>Framer</span>
-                </p>
-                <SocialIcon
-                  url="#"
-                  network="sharethis"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="https://github.com/ekanshuj/nextjs-portfolio"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
+                <div className="flex items-center justify-evenly flex-wrap">
+                  {/* <Tilt> */}
+                  <div className="max-w-">
+                    <Image src={chatter} alt="lord" />
+                  </div>
+                  {/* </Tilt> */}
+                </div>
               </div>
             </div>
 
-            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
-              <div className="flex-grow text-center mt-6 sm:mt-0">
-                <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
-                  React Chat Application
-                </h2>
-                <p className="leading-relaxed text-base font-shadow tracking-[3px] space-x-2">
-                  <span>React.js</span>
-                  <span>Socket.io</span>
-                  <span>Express</span>
-                  <span>Node.js</span>
-                  <span>Mongodb</span>
-                  <span>Styled-Components</span>
-                </p>
-                <SocialIcon
-                  url="https://github.com/ekanshuj/react-chat-application"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="#"
-                  bgColor="transparent"
-                  network="sharethis"
-                  fgColor="gray"
-                />
-              </div>
-              <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer max-w-96 h-60 sm:max-w-sm">
-                  <Image src={lord} alt={"lord"} className="" />
+            <div className="bg-gray-900 py-5  my-3">
+              <div className="container mx-auto">
+                <div className="flex items-center justify-center bg-white">
+                  <h2>React Netflix Clone</h2>
                 </div>
-              </Tilt>
-            </div>
-
-            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
-              <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer h-60 max-w-96 sm:h-80 sm:max-w-xl">
-                  <Image src={lord} alt={"lord"} className="" />
+                <div className="flex items-center justify-evenly flex-wrap">
+                  {/* <Tilt> */}
+                  <div className="max-w-">
+                    <Image src={netflix} alt="lord" />
+                  </div>
+                  {/* </Tilt> */}
                 </div>
-              </Tilt>
-              <div className="flex-grow text-center mt-6 sm:mt-0">
-                <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
-                  React Netflix Clone
-                </h2>
-                <p className="leading-relaxed text-base font-shadow tracking-[3px] space-x-2">
-                  <span>React.js</span>
-                  <span>Firebase</span>
-                  <span>API</span>
-                  <span>Styled-Components</span>
-                </p>
-                <SocialIcon
-                  url="#"
-                  network="sharethis"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="https://github.com/ekanshuj/react-netflix-clone"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
               </div>
             </div>
 
-            <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 md:flex-row flex-col gap-8">
-              <div className="flex-grow text-center mt-6 sm:mt-0">
-                <h2 className="text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]">
-                  Command Line Interface - CLi
-                </h2>
-                <p className="leading-relaxed text-base font-shadow tracking-[3px]">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
-                </p>
-                <SocialIcon
-                  url="https://github.com/ekanshuj/react-cli"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="#"
-                  bgColor="transparent"
-                  network="sharethis"
-                  fgColor="gray"
-                />
-              </div>
-              <Tilt>
-                <div className="overflow-hidden bg-cover cursor-pointer max-w-96 h-60 sm:max-w-[30rem]">
-                  <Image src={lord} alt={"lord"} className="" />
+            <div className="bg-gray-900 py-5  my-3">
+              <div className="container mx-auto">
+                <div className="flex items-center justify-center bg-white">
+                  <h2>Next Portfolio</h2>
                 </div>
-              </Tilt>
+                <div className="flex items-center justify-evenly flex-wrap">
+                  {/* <Tilt> */}
+                  <div className="max-w-">
+                    <Image src={portfolio} alt="lord" />
+                  </div>
+                  {/* </Tilt> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-900 py-5  my-3">
+              <div className="container mx-auto">
+                <div className="flex items-center justify-center bg-white">
+                  <h2>React Chat Application</h2>
+                </div>
+                <div className="flex items-center justify-evenly flex-wrap">
+                  {/* <Tilt> */}
+                  <div className="max-w-">
+                    <Image src={chatter} alt="lord" />
+                  </div>
+                  {/* </Tilt> */}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -149,3 +87,11 @@ const Projects = (props: Props) => {
 };
 
 export default Projects;
+
+// "text-white text-xl uppercase title-font font-semibold mb-2 font-shadow tracking-[4px]
+// leading-relaxed text-base font-shadow tracking-[3px]"
+{
+  /* <h1 className="sm:text-4xl text-[1.5rem] font-semibold title-font mb-2 text-white font-shadow tracking-[7px]">
+                Things I’ve Built
+              </h1> */
+}
