@@ -8,8 +8,8 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <footer className="flex justify-between items-center px-2 sm:px-2 sm:max-w-[75rem] mx-auto">
-      <div className="flex justify-center items-center">
+    <footer className="flex justify-between items-center flex-col sm:flex-row px-2 sm:max-w-[75rem] mx-auto">
+      <div className="flex justify-center items-center flex-wrap">
         <div>
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <svg
@@ -26,8 +26,10 @@ const Footer = (props: Props) => {
             </svg>
           </a>
         </div>
-        <div className="border-l-2 mx-2 px-2">
-          <p>No © Copyright — Free to . . .</p>
+        <div className="border-l-2 mx-2 px-0 my-2 sm:my-0 sm:px-2">
+          <p className="font-shadow text-base tracking-[2px] font-semibold  ">
+            No © Copyright — Free to . . .
+          </p>
         </div>
       </div>
       <div>

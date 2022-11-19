@@ -8,7 +8,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'aso': ['Alfa Slab One', 'cursive'],
-      'shadow': ['Shadows Into Light Two', 'cursive'],
+      'shadow': ['Shadows Into Light Two', 'cursive']
     },
   },
   variants: {
