@@ -2,7 +2,7 @@ import React from "react";
 import type { NextPage } from "next";
 import Script from "next/script";
 // import Image from 'next/image';
-import { Hero, Projects, Footer, Tagline, Header } from "../components";
+import { Hero, Projects, Footer, Tagline, Header, Others } from "../components";
 import Head from "next/head";
 
 const Home: NextPage = () => {
@@ -21,6 +21,7 @@ const Home: NextPage = () => {
         <Header />
         <Hero />
         <Projects />
+        <Others />
         <Tagline />
         <Footer />
       </main>

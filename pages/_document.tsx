@@ -23,6 +23,18 @@ export default function Document({}: Props) {
           href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />

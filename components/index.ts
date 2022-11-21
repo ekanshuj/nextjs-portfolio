@@ -3,3 +3,4 @@ export { default as Hero } from "./elements/Hero";
 export { default as Projects } from "./elements/Projects";
 export { default as Tagline } from "./elements/Tagline";
 export { default as Footer } from "./elements/Footer";
+export { default as Others } from "./elements/Others";

@@ -27,7 +27,7 @@ const Footer = (props: Props) => {
           </a>
         </div>
         <div className="border-l-2 mx-2 px-0 my-2 sm:my-0 sm:px-2">
-          <p className="font-shadow text-base tracking-[2px] font-semibold  ">
+          <p className="font-shadow text-base tracking-[2px] font-semibold">
             No © Copyright — Free to . . .
           </p>
         </div>

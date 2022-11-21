@@ -8,7 +8,10 @@ module.exports = {
     extend: {},
     fontFamily: {
       'aso': ['Alfa Slab One', 'cursive'],
-      'shadow': ['Shadows Into Light Two', 'cursive']
+      'shadow': ['Shadows Into Light Two', 'cursive'],
+      'han': ['Black Han Sans', 'sans-serif'],
+      'bubblegum': ['Bubblegum Sans', 'cursive'],
+      'averia': ['Averia Sans Libre', 'cursive']
     },
   },
   variants: {
