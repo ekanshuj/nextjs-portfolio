@@ -21,8 +21,10 @@ const Projects = (props: Props) => {
             &#9679;Things I’ve Built
           </h1>
         </div>
+        {/* DIV MARGIN PROP AND CONTAINER+FLEX DIV  */}
+        {/* BLUR OVER OBJECT ON RESPONSIVE <ERROR></ERROR> */}
         <div className="grid items-center">
-          <div className="my-3 mx-3 sm:mx-0">
+          <div className="my-5 mx-3 sm:mx-0">
             <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
@@ -57,7 +59,7 @@ const Projects = (props: Props) => {
             </div>
           </div>
 
-          <div className="my-3 mx-3 sm:mx-0">
+          <div className="my-5 mx-3 sm:mx-0">
             <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
@@ -92,7 +94,7 @@ const Projects = (props: Props) => {
             </div>
           </div>
 
-          <div className="my-3 mx-3 sm:mx-0">
+          <div className="my-5 mx-3 sm:mx-0">
             <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
@@ -127,7 +129,7 @@ const Projects = (props: Props) => {
             </div>
           </div>
 
-          <div className="my-3 mx-3 sm:mx-0">
+          <div className="my-5 mx-3 sm:mx-0">
             <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
