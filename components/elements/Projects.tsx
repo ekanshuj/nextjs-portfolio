@@ -3,9 +3,9 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { SocialIcon } from "react-social-icons";
 
-import chatter from "../../assets/Images/chatter.png";
-import netflix from "../../assets/Images/netflix.png";
-import portfolio from "../../assets/Images/portfolio.png";
+import chatter from "../../assets/images/chatter.png";
+import netflix from "../../assets/images/netflix.png";
+import portfolio from "../../assets/images/portfolio.png";
 
 type Props = {};
 
@@ -21,22 +21,20 @@ const Projects = (props: Props) => {
             &#9679;Things I’ve Built
           </h1>
         </div>
-        {/* DIV MARGIN PROP AND CONTAINER+FLEX DIV  */}
         {/* BLUR OVER OBJECT ON RESPONSIVE <ERROR></ERROR> */}
-        <div className="grid items-center">
+        <div className="flex items-center justify-center flex-col container mx-auto">
           <div className="my-5 mx-3 sm:mx-0">
-            <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
+            {/* <Tilt> */}
+            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
                   React Chat Application
                 </h2>
               </div>
               <div className="flex items-center justify-evenly flex-wrap">
-                {/* <Tilt> */}
                 <div>
                   <Image src={chatter} alt="lord" />
                 </div>
-                {/* </Tilt> */}
               </div>
               <div className="flex items-center justify-center">
                 <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
@@ -57,21 +55,21 @@ const Projects = (props: Props) => {
                 />
               </div>
             </div>
+            {/* </Tilt> */}
           </div>
 
           <div className="my-5 mx-3 sm:mx-0">
-            <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
+            {/* <Tilt> */}
+            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
                   React Netflix Clone
                 </h2>
               </div>
               <div className="flex items-center justify-evenly flex-wrap">
-                {/* <Tilt> */}
                 <div className="max-w-">
                   <Image src={netflix} alt="lord" />
                 </div>
-                {/* </Tilt> */}
               </div>
               <div className="flex items-center justify-center bg-white">
                 <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
@@ -92,21 +90,21 @@ const Projects = (props: Props) => {
                 />
               </div>
             </div>
+            {/* </Tilt> */}
           </div>
 
           <div className="my-5 mx-3 sm:mx-0">
-            <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
+            {/* <Tilt> */}
+            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
                   Next Portfolio
                 </h2>
               </div>
               <div className="flex items-center justify-evenly flex-wrap">
-                {/* <Tilt> */}
                 <div className="max-w-">
                   <Image src={portfolio} alt="lord" />
                 </div>
-                {/* </Tilt> */}
               </div>
               <div className="flex items-center justify-center bg-white">
                 <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
@@ -127,21 +125,21 @@ const Projects = (props: Props) => {
                 />
               </div>
             </div>
+            {/* </Tilt> */}
           </div>
 
           <div className="my-5 mx-3 sm:mx-0">
-            <div className="container mx-auto bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
+            {/* <Tilt> */}
+            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
               <div className="flex items-center justify-center bg-white">
                 <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
-                  React Chat Application
+                  React Cli
                 </h2>
               </div>
               <div className="flex items-center justify-evenly flex-wrap">
-                {/* <Tilt> */}
                 <div className="max-w-">
                   <Image src={chatter} alt="lord" />
                 </div>
-                {/* </Tilt> */}
               </div>
               <div className="flex items-center justify-center bg-white">
                 <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
@@ -162,6 +160,7 @@ const Projects = (props: Props) => {
                 />
               </div>
             </div>
+            {/* </Tilt> */}
           </div>
         </div>
       </div>

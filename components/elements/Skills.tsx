@@ -1,4 +1,28 @@
 import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+import html from "../../assets/icons/html.svg";
+import css from "../../assets/icons/css.svg";
+import javascript from "../../assets/icons/javascript.svg";
+import bootstrap from "../../assets/icons/bootstrap.svg";
+import sass from "../../assets/icons/sass.svg";
+import tailwind from "../../assets/icons/tailwind.svg";
+import reactjs from "../../assets/icons/reactjs.svg";
+import json from "../../assets/icons/json.svg";
+import nodejs from "../../assets/icons/nodejs.svg";
+import mongodb from "../../assets/icons/mongodb.svg";
+import git from "../../assets/icons/git.svg";
+import github from "../../assets/icons/github.svg";
+import framer from "../../assets/icons/framer.svg";
+import nextjs from "../../assets/icons/nextjs.svg";
+import sanity from "../../assets/icons/sanity.svg";
+import twilio from "../../assets/icons/twilio.svg";
+import vercel from "../../assets/icons/vercel.svg";
+import vscode from "../../assets/icons/vscode.svg";
+import zip from "../../assets/icons/zip.svg";
+import figma from "../../assets/icons/figma.svg";
+css;
 
 type Props = {};
 
@@ -14,14 +38,10 @@ const Skills = (props: Props) => {
             &#9679;Things I’ve Been Around
           </h1>
         </div>
-        <div className="grid items-center">
-          <div className="my-3 mx-3 sm:mx-0">
-            <div className="container mx-auto">
-              <div className="flex items-center justify-center">
-                <p className="text-xl font-black uppercase">Skills</p>
-              </div>
-            </div>
-          </div>
+        {/* https://darkmodejs.learn.uno/ */}
+        {/* https://www.tawk.to/ */}
+        <div className="my-3 mx-3 sm:mx-0">
+          <div className="flex items-center justify-center flex-wrap container mx-auto gap-2 xl:gap-4"></div>
         </div>
       </div>
     </section>
