@@ -41,7 +41,11 @@ const Skills = (props: Props) => {
         {/* https://darkmodejs.learn.uno/ */}
         {/* https://www.tawk.to/ */}
         <div className="my-3 mx-3 sm:mx-0">
-          <div className="flex items-center justify-center flex-wrap container mx-auto gap-2 xl:gap-4"></div>
+          <div className="flex items-center justify-center flex-wrap container mx-auto gap-2 xl:gap-4">
+            <motion.div>
+              <Image src={html} alt="html" width={100} height={100} />
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>

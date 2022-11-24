@@ -11,7 +11,6 @@ import {
   Others,
 } from "../components";
 import Head from "next/head";
-// import Darkmode from 'darkmode-js';
 
 const Home: NextPage = () => {
   return (
