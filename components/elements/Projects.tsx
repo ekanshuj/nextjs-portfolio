@@ -2,10 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { SocialIcon } from "react-social-icons";
-
-import chatter from "../../assets/images/chatter.png";
-import netflix from "../../assets/images/netflix.png";
-import portfolio from "../../assets/images/portfolio.png";
+import { projects } from "../../config/config";
 
 type Props = {};
 
@@ -23,145 +20,54 @@ const Projects = (props: Props) => {
         </div>
         {/* BLUR OVER OBJECT ON RESPONSIVE <ERROR></ERROR> */}
         <div className="flex items-center justify-center flex-col container mx-auto">
-          <div className="my-5 mx-3 sm:mx-0">
-            {/* <Tilt> */}
-            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
-              <div className="flex items-center justify-center bg-white">
-                <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
-                  React Chat Application
-                </h2>
-              </div>
-              <div className="flex items-center justify-evenly flex-wrap">
-                <div>
-                  <Image src={chatter} alt="lord" />
-                </div>
-              </div>
-              <div className="flex items-center justify-center">
-                <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
-                  React.js | Styled-Components | Node.js | Express | Mongodb
-                </h2>
-              </div>
-              <div className="flex items-center justify-center flex-wrap">
-                <SocialIcon
-                  url="https://github.com/ekanshuj/react-chat-application"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="#"
-                  bgColor="transparent"
-                  fgColor="gray"
-                  network="sharethis"
-                />
-              </div>
-            </div>
-            {/* </Tilt> */}
-          </div>
+          {/* DEMO STARTS <HERE></HERE> */}
 
-          <div className="my-5 mx-3 sm:mx-0">
-            {/* <Tilt> */}
-            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
-              <div className="flex items-center justify-center bg-white">
-                <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
-                  React Netflix Clone
-                </h2>
-              </div>
-              <div className="flex items-center justify-evenly flex-wrap">
-                <div className="max-w-">
-                  <Image src={netflix} alt="lord" />
+          {projects.map((project, i) => {
+            console.log(project.technologies);
+            return (
+              <div key={i} className="my-5 mx-3 sm:mx-0">
+                <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
+                  <div className="flex items-center justify-center bg-white">
+                    <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
+                      {project.name}
+                    </h2>
+                  </div>
+                  <div className="flex items-center justify-evenly flex-wrap">
+                    <div>
+                      <Image src={project.img} alt="lord" />
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-center flex-wrap">
+                    {project.technologies.map((tech, i) => {
+                      return (
+                        <p
+                          className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 mx-2"
+                          key={i}
+                        >
+                          {tech.name}
+                        </p>
+                      );
+                    })}
+                  </div>
+                  <div className="flex items-center justify-center flex-wrap">
+                    <SocialIcon
+                      url={project.url1}
+                      bgColor="transparent"
+                      fgColor="gray"
+                    />
+                    <SocialIcon
+                      url={project.url2}
+                      bgColor="transparent"
+                      fgColor="gray"
+                      network="sharethis"
+                    />
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center justify-center bg-white">
-                <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
-                  React.js | Styled-Components | Firebase
-                </h2>
-              </div>
-              <div className="flex items-center justify-center flex-wrap">
-                <SocialIcon
-                  url="https://github.com/ekanshuj/react-netflix-clone"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="#"
-                  bgColor="transparent"
-                  fgColor="gray"
-                  network="sharethis"
-                />
-              </div>
-            </div>
-            {/* </Tilt> */}
-          </div>
+            );
+          })}
 
-          <div className="my-5 mx-3 sm:mx-0">
-            {/* <Tilt> */}
-            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
-              <div className="flex items-center justify-center bg-white">
-                <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
-                  Next Portfolio
-                </h2>
-              </div>
-              <div className="flex items-center justify-evenly flex-wrap">
-                <div className="max-w-">
-                  <Image src={portfolio} alt="lord" />
-                </div>
-              </div>
-              <div className="flex items-center justify-center bg-white">
-                <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
-                  Next.js | Tailwind | Framer-Motion
-                </h2>
-              </div>
-              <div className="flex items-center justify-center flex-wrap">
-                <SocialIcon
-                  url="https://github.com/ekanshuj/nextjs-portfolio"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="#"
-                  bgColor="transparent"
-                  fgColor="gray"
-                  network="sharethis"
-                />
-              </div>
-            </div>
-            {/* </Tilt> */}
-          </div>
-
-          <div className="my-5 mx-3 sm:mx-0">
-            {/* <Tilt> */}
-            <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
-              <div className="flex items-center justify-center bg-white">
-                <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
-                  React Cli
-                </h2>
-              </div>
-              <div className="flex items-center justify-evenly flex-wrap">
-                <div className="max-w-">
-                  <Image src={chatter} alt="lord" />
-                </div>
-              </div>
-              <div className="flex items-center justify-center bg-white">
-                <h2 className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 text-center">
-                  Technologies
-                </h2>
-              </div>
-              <div className="flex items-center justify-center flex-wrap">
-                <SocialIcon
-                  url="https://github.com/ekanshuj/react-chat-application"
-                  bgColor="transparent"
-                  fgColor="gray"
-                />
-                <SocialIcon
-                  url="#"
-                  bgColor="transparent"
-                  fgColor="gray"
-                  network="sharethis"
-                />
-              </div>
-            </div>
-            {/* </Tilt> */}
-          </div>
+          {/* DEMO ENDS <HERE></HERE> */}
         </div>
       </div>
     </section>

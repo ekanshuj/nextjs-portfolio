@@ -6,10 +6,9 @@ import tailwind from "../assets/icons/tailwind.svg";
 import chatter from "../assets/images/chatter.png";
 import netflix from "../assets/images/netflix.png";
 import portfolio from "../assets/images/portfolio.png";
-import lord from "../assets/images/lord.png";
+import lord from "../assets/images/lord.jpg";
 
 import dots from "../assets/icons/dots.svg";
-import { SocialIcon } from "react-social-icons";
 
 export const socials = [
   {
@@ -38,22 +37,68 @@ export const projects = [
   {
     name: "react chat application",
     img: chatter,
-    tech: ["React.js", "Styled-Components", "Node.js", "Express", "Mongodb"],
+    technologies: [
+      { name: "React.js" },
+      { name: "Styled-Components" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "Mongodb" },
+      // "React.js",
+      // "Styled-Components",
+      // "Node.js",
+      // "Express",
+      // "Mongodb",
+    ],
+    url1: "https://github.com/ekanshuj/react-chat-application",
+    url2: "#",
   },
   {
     name: "react netflix clone",
     img: netflix,
-    tech: ["React.js", "Styled-Components", "Firebase"],
+    technologies: [
+      { name: "React.js" },
+      { name: "Styled-Components" },
+      { name: "Firebase" },
+      // "React.js",
+      //  "Styled-Components",
+      //   "Firebase",
+    ],
+    url1: "https://github.com/ekanshuj/react-netflix-clone",
+    url2: "#",
   },
   {
     name: "next portfolio",
     img: portfolio,
-    tech: ["Next.js", "Tailwind", "Framer-Motion", "Sanity"],
+    technologies: [
+      { name: "Next.js" },
+      { name: "Tailwind" },
+      { name: "Framer-Motion" },
+      { name: "Sanity" },
+      //   "Next.js",
+      //  "Tailwind",
+      //  "Framer-Motion",
+      //  "Sanity",
+    ],
+    url1: "https://github.com/ekanshuj/nextjs-portfolio",
+    url2: "#",
   },
   {
     name: "react cli",
-    img: lord,
-    tech: ["React.js", "Styled-Components", "Node.js", "Express", "Mongodb"],
+    img: chatter,
+    technologies: [
+      { name: "React.js" },
+      { name: "Styled-Components" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "Mongodb" },
+      // "React.js",
+      // "Styled-Components",
+      // "Node.js",
+      // "Express",
+      // "Mongodb",
+    ],
+    url1: "https://github.com/ekanshuj/react-chat-application",
+    url2: "#",
   },
 ];
 
@@ -63,6 +108,6 @@ export const stuffs = [
     name: "Flex Blogs",
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est itaque tempora mollitia natus accusantium.",
-    tech: ["A", "B", "C", "D"],
+    technologies: ["A", "B", "C", "D"],
   },
 ];
