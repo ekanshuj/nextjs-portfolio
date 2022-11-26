@@ -44,10 +44,7 @@ const Footer = (props: Props) => {
       </div>
       <div>
         <p className="font-shadow text-base tracking-[2px] font-semibold">
-          Made with ❤️ in India by{" "}
-          <span className="underline tracking-[3px] font-extrabold">
-            Ekanshu
-          </span>
+          Made with ❤️ in India 🇮🇳
         </p>
       </div>
     </footer>

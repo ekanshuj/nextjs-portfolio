@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Switch from "react-switch";

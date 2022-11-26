@@ -20,25 +20,22 @@ const Projects = (props: Props) => {
         </div>
         {/* BLUR OVER OBJECT ON RESPONSIVE <ERROR></ERROR> */}
         <div className="flex items-center justify-center flex-col container mx-auto">
-          {/* DEMO STARTS <HERE></HERE> */}
-
-          {projects.map((project, i) => {
-            console.log(project.technologies);
+          {projects.map(({ name, img, technologies, url1, url2 }, i) => {
             return (
               <div key={i} className="my-5 mx-3 sm:mx-0">
                 <div className="bg-[rgba(255, 255, 255, 0.41)] shadow-xl backdrop-blur-[6.5px]">
                   <div className="flex items-center justify-center bg-white">
                     <h2 className="text-black text-xl sm:text-3xl uppercase font-black my-1 font-shadow underline tracking-[2px]">
-                      {project.name}
+                      {name}
                     </h2>
                   </div>
                   <div className="flex items-center justify-evenly flex-wrap">
                     <div>
-                      <Image src={project.img} alt="lord" />
+                      <Image src={img} alt="lord" />
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-wrap">
-                    {project.technologies.map((tech, i) => {
+                    {technologies.map((tech, i) => {
                       return (
                         <p
                           className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 mx-2"
@@ -51,12 +48,12 @@ const Projects = (props: Props) => {
                   </div>
                   <div className="flex items-center justify-center flex-wrap">
                     <SocialIcon
-                      url={project.url1}
+                      url={url1}
                       bgColor="transparent"
                       fgColor="gray"
                     />
                     <SocialIcon
-                      url={project.url2}
+                      url={url2}
                       bgColor="transparent"
                       fgColor="gray"
                       network="sharethis"
@@ -66,8 +63,6 @@ const Projects = (props: Props) => {
               </div>
             );
           })}
-
-          {/* DEMO ENDS <HERE></HERE> */}
         </div>
       </div>
     </section>

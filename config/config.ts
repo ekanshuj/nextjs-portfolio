@@ -6,7 +6,6 @@ import tailwind from "../assets/icons/tailwind.svg";
 import chatter from "../assets/images/chatter.png";
 import netflix from "../assets/images/netflix.png";
 import portfolio from "../assets/images/portfolio.png";
-import lord from "../assets/images/lord.jpg";
 
 import dots from "../assets/icons/dots.svg";
 
@@ -43,11 +42,6 @@ export const projects = [
       { name: "Node.js" },
       { name: "Express" },
       { name: "Mongodb" },
-      // "React.js",
-      // "Styled-Components",
-      // "Node.js",
-      // "Express",
-      // "Mongodb",
     ],
     url1: "https://github.com/ekanshuj/react-chat-application",
     url2: "#",
@@ -59,9 +53,6 @@ export const projects = [
       { name: "React.js" },
       { name: "Styled-Components" },
       { name: "Firebase" },
-      // "React.js",
-      //  "Styled-Components",
-      //   "Firebase",
     ],
     url1: "https://github.com/ekanshuj/react-netflix-clone",
     url2: "#",
@@ -74,10 +65,6 @@ export const projects = [
       { name: "Tailwind" },
       { name: "Framer-Motion" },
       { name: "Sanity" },
-      //   "Next.js",
-      //  "Tailwind",
-      //  "Framer-Motion",
-      //  "Sanity",
     ],
     url1: "https://github.com/ekanshuj/nextjs-portfolio",
     url2: "#",
@@ -91,11 +78,6 @@ export const projects = [
       { name: "Node.js" },
       { name: "Express" },
       { name: "Mongodb" },
-      // "React.js",
-      // "Styled-Components",
-      // "Node.js",
-      // "Express",
-      // "Mongodb",
     ],
     url1: "https://github.com/ekanshuj/react-chat-application",
     url2: "#",
@@ -105,9 +87,54 @@ export const projects = [
 export const stuffs = [
   {
     icon: dots,
-    name: "Flex Blogs",
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est itaque tempora mollitia natus accusantium.",
-    technologies: ["A", "B", "C", "D"],
+    name: "first-contributions",
+    url: "https://github.com/ekanshuj/first-contributions",
+    description: "Help beginners to contribute to open source projects",
+    technologies: "Technologies Used",
+  },
+  {
+    icon: dots,
+    name: "youtube-ui-clone",
+    url: "https://github.com/ekanshuj/youtube-ui-clone",
+    description: "NO Framework pure HTML, SCSS, JS",
+    technologies: "Technologies Used",
+  },
+  {
+    icon: dots,
+    name: "github-readme-stats",
+    url: "https://github.com/ekanshuj/github-readme-stats",
+    description: "Get dynamically generated GitHub stats on your READMEs!",
+    technologies: "Technologies Used",
+  },
+  {
+    icon: dots,
+    name: "node-books",
+    url: "https://github.com/ekanshuj/node-books",
+    description:
+      "simple rest-api structure to get started with your first mern project",
+    technologies: "Technologies Used",
+  },
+  {
+    icon: dots,
+    name: "scrapper-api",
+    url: "https://github.com/ekanshuj/scrapper-api",
+    description: "Crawl web pages and search data using api proxy!",
+    technologies: "Technologies Used",
+  },
+  {
+    icon: dots,
+    name: "react/stytch",
+    url: "https://github.com/ekanshuj/react-passwordless-authentication",
+    description:
+      "Build simple onboarding and authentication experiences with Stytch’s flexible API and SDKs",
+    technologies: "Technologies Used",
+  },
+  {
+    icon: dots,
+    name: "react-slider",
+    url: "https://github.com/ekanshuj/react-slider",
+    description:
+      "A simple react-slider-animation using React Framer-Motion Library",
+    technologies: "Technologies Used",
   },
 ];
