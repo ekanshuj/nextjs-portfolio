@@ -35,13 +35,13 @@ const Projects = (props: Props) => {
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-wrap">
-                    {technologies.map((tech, i) => {
+                    {technologies.map(({ name }, i) => {
                       return (
                         <p
                           className=" text-black leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 mx-2"
                           key={i}
                         >
-                          {tech.name}
+                          {name}
                         </p>
                       );
                     })}
