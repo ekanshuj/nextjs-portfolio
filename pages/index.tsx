@@ -6,7 +6,6 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    // <div>
     <div>
       <Head>
         <title>Ekanshu Joshi</title>
