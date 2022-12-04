@@ -1,15 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
 import Script from "next/script";
-import {
-  Header,
-  Hero,
-  Skills,
-  Projects,
-  Footer,
-  Tagline,
-  Others,
-} from "../components";
+import { Header, Hero, Projects, Footer, Tagline, Others } from "../components";
 import Head from "next/head";
 
 const Home: NextPage = () => {
@@ -25,7 +17,6 @@ const Home: NextPage = () => {
       <main className="w-full mx-auto min-h-screen overflow-x-hidden bg-[#E7F2F5]">
         <Header />
         <Hero />
-        <Skills />
         <Projects />
         <Others />
         <Tagline />
