@@ -5,9 +5,12 @@ import Switch from "react-switch";
 import { MdDarkMode } from "react-icons/md";
 import { HiLightningBolt } from "react-icons/hi";
 
+import { useTheme } from "next-themes";
+
 type Props = {};
 
 const Header = (props: Props) => {
+  const { theme, setTheme } = useTheme();
   return (
     <header className="flex justify-between items-center px-2 py-2 sm:py-4 sm:px-2 sm:max-w-[75rem] mx-auto absolute inset-x-0 top-0">
       <motion.div
@@ -68,22 +71,21 @@ const Header = (props: Props) => {
         </span> */}
         <Switch
           className="mx-2"
-          onChange={() => {}}
-          checked={false}
-          // checked
+          onChange={() => setTheme(theme === "dark" ? "light" : "dark")}
+          checked={theme === "dark"}
           uncheckedIcon={
-            <HiLightningBolt
-              color="#ffff00"
+            <MdDarkMode
+              color="#000000"
               className="absolute top-[4px] right-[8px]"
             />
           }
           checkedIcon={
-            <MdDarkMode
+            <HiLightningBolt
               className="invert absolute top-[4px] left-[7px]"
               size={"1.1rem"}
             />
           }
-          onColor="#000000"
+          onColor="#FFE87C"
           offColor="#C8E7FF"
           height={26}
           width={52}

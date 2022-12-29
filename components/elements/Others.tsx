@@ -7,7 +7,7 @@ type Props = {};
 
 const Others = (props: Props) => {
   return (
-    <section className="min-h-screen bg-[#FFFFFF] my-5">
+    <section className="min-h-screen dark:bg-black bg-[#FFFFFF] my-5">
       <div className="flex items-center justify-center sm:justify-start flex-wrap py-3">
         <h1 className="sm:text-4xl text-[1.5rem] font-black text-white bg-gray-900 font-shadow tracking-[9px] px-4 sm:hidden text-center">
           Other Stuffs
@@ -22,9 +22,9 @@ const Others = (props: Props) => {
             return (
               <div
                 key={i}
-                className="border-[2.5px] rounded-xl border-black max-w-full md:max-w-[23.275rem] lg:max-w-[31.275rem] xl:w-[25.275rem] p-1"
+                className="border-[2.5px] rounded-xl dark:border-white border-black max-w-full md:max-w-[23.275rem] lg:max-w-[31.275rem] xl:w-[25.275rem] p-1"
               >
-                <header className="flex items-center justify-start border-b-2 border-black">
+                <header className="flex items-center justify-start border-b-2 border-black dark:border-white">
                   <Image src={icon} alt="icon" className="pl-1" />
                 </header>
                 <article className="flex items-center justify-center flex-col">
