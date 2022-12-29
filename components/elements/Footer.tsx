@@ -13,7 +13,7 @@ const Footer = (props: Props) => {
         <div className="flex justify-center items-center flex-wrap">
           <div>
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <svg
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
@@ -24,7 +24,7 @@ const Footer = (props: Props) => {
                 viewBox="0 0 24 24"
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
+              </svg> */}
             </a>
           </div>
           <div className="border-l-2 mx-2 px-0 my-2 sm:my-0 sm:px-2">
