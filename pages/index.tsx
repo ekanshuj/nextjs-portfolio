@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <main className="w-full mx-auto min-h-screen overflow-x-hidden bg-[#E7F2F5] dark:bg-black dark:text-white">
         <Header />
         <Hero />
-        <Projects />
+        {/* <Projects /> */}
         <Others />
         <Tagline />
         <Footer />
