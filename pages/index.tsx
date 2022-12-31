@@ -1,6 +1,6 @@
 import React from "react";
 import type { NextPage } from "next";
-import Script from "next/script";
+// import Script from "next/script";
 import { Header, Hero, Projects, Footer, Tagline, Others } from "../components";
 import Head from "next/head";
 // import { useTheme } from "next-themes";
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <main className="w-full mx-auto min-h-screen overflow-x-hidden bg-[#E7F2F5] dark:bg-black dark:text-white">
         <Header />
         <Hero />
-        {/* <Projects /> */}
+        <Projects />
         <Others />
         <Tagline />
         <Footer />

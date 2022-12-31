@@ -1,8 +1,8 @@
-import chatter from "../assets/images/chatter.png";
-import netflix from "../assets/images/netflix.png";
-import portfolio from "../assets/images/portfolio.png";
+import chatter from "../assts/images/chatter.png";
+import netflix from "../assts/images/netflix.png";
+import portfolio from "../assts/images/portfolio.png";
 
-import dots from "../assets/icons/dots.svg";
+import dots from "../assts/icons/dots.svg";
 
 export const projects = [
   {

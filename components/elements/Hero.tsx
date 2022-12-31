@@ -7,7 +7,7 @@ import "react-simple-typewriter/dist/index";
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
 // import { particles } from '../../Particles/Particles'
-import coddy from "../../assets/gifs/coddy.gif";
+import coddy from "../../assts/gifs/coddy.gif";
 
 type Props = {};
 
