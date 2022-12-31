@@ -1,36 +1,8 @@
-import framer from "../assets/icons/framer.svg";
-import nextjs from "../assets/icons/nextjs.svg";
-import sanity from "../assets/icons/sanity.svg";
-import tailwind from "../assets/icons/tailwind.svg";
-
 import chatter from "../assets/images/chatter.png";
 import netflix from "../assets/images/netflix.png";
 import portfolio from "../assets/images/portfolio.png";
 
 import dots from "../assets/icons/dots.svg";
-
-export const socials = [
-  {
-    name: "next",
-    url: "https://nextjs.org/",
-    icon: nextjs,
-  },
-  {
-    name: "tailwindcss",
-    url: "https://tailwindcss.com/",
-    icon: tailwind,
-  },
-  {
-    name: "sanity",
-    url: "https://www.sanity.io/",
-    icon: sanity,
-  },
-  {
-    name: "framer",
-    url: "https://www.framer.com/motion/",
-    icon: framer,
-  },
-];
 
 export const projects = [
   {
