@@ -62,21 +62,18 @@ export const stuffs = [
     name: "first-contributions",
     url: "https://github.com/ekanshuj/first-contributions",
     description: "Help beginners to contribute to open source projects",
-    technologies: "Technologies Used",
   },
   {
     icon: dots,
     name: "youtube-ui-clone",
     url: "https://github.com/ekanshuj/youtube-ui-clone",
     description: "NO Framework pure HTML, SCSS, JS",
-    technologies: "Technologies Used",
   },
   {
     icon: dots,
     name: "github-readme-stats",
     url: "https://github.com/ekanshuj/github-readme-stats",
     description: "Get dynamically generated GitHub stats on your READMEs!",
-    technologies: "Technologies Used",
   },
   {
     icon: dots,
@@ -84,14 +81,12 @@ export const stuffs = [
     url: "https://github.com/ekanshuj/node-books",
     description:
       "simple rest-api structure to get started with your first mern project",
-    technologies: "Technologies Used",
   },
   {
     icon: dots,
     name: "scrapper-api",
     url: "https://github.com/ekanshuj/scrapper-api",
     description: "Crawl web pages and search data using api proxy!",
-    technologies: "Technologies Used",
   },
   {
     icon: dots,
@@ -99,7 +94,6 @@ export const stuffs = [
     url: "https://github.com/ekanshuj/react-passwordless-authentication",
     description:
       "Build simple onboarding and authentication experiences with Stytch’s flexible API and SDKs",
-    technologies: "Technologies Used",
   },
   {
     icon: dots,
@@ -107,6 +101,5 @@ export const stuffs = [
     url: "https://github.com/ekanshuj/react-slider",
     description:
       "A simple react-slider-animation using React Framer-Motion Library",
-    technologies: "Technologies Used",
   },
 ];

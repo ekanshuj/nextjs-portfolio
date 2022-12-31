@@ -18,7 +18,7 @@ const Others = (props: Props) => {
       </div>
       <div className="py-5 mx-3 sm:mx-0">
         <div className="flex items-center justify-center gap-2 xl:gap-4 flex-wrap container mx-auto">
-          {stuffs.map(({ icon, name, url, description, technologies }, i) => {
+          {stuffs.map(({ icon, name, url, description }, i) => {
             return (
               <div
                 key={i}
@@ -46,9 +46,6 @@ const Others = (props: Props) => {
                     <h1 className="text-lg px-1">{description}</h1>
                   </div>
                 </article>
-                <footer className="flex items-center justify-center">
-                  <p className="uppercase font-black">{technologies}</p>
-                </footer>
               </div>
             );
           })}
