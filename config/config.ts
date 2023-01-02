@@ -19,7 +19,7 @@ export const projects = [
     url2: "#",
   },
   {
-    name: "react netflix clone",
+    name: "react netflix",
     img: netflix,
     technologies: [
       { name: "React.js" },
@@ -34,9 +34,9 @@ export const projects = [
     img: portfolio,
     technologies: [
       { name: "Next.js" },
-      { name: "Tailwind" },
+      { name: "TailwindCSS" },
       { name: "Framer-Motion" },
-      { name: "Sanity" },
+      // { name: "Sanity" },
     ],
     url1: "https://github.com/ekanshuj/nextjs-portfolio",
     url2: "#",
