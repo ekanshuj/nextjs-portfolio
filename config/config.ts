@@ -77,10 +77,10 @@ export const stuffs = [
   },
   {
     icon: dots,
-    name: "node-books",
+    name: "oaiig",
     url: "https://github.com/ekanshuj/node-books",
     description:
-      "simple rest-api structure to get started with your first mern project",
+      "Open AI Image Generator - Generate images using OpenAI's DALL-E 2.0",
   },
   {
     icon: dots,
