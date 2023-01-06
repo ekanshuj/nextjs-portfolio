@@ -53,6 +53,7 @@ const Projects = (props: Props) => {
                       fgColor="gray"
                     />
                     <SocialIcon
+                      target="_blank"
                       url={url2}
                       bgColor="transparent"
                       fgColor="gray"

@@ -27,7 +27,7 @@ export const projects = [
       { name: "Firebase" },
     ],
     url1: "https://github.com/ekanshuj/react-netflix-clone",
-    url2: "#",
+    url2: "https://react-netflix-ekanshuj.web.app",
   },
   {
     name: "next portfolio",
