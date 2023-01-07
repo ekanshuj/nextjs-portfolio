@@ -6,7 +6,7 @@ import dots from "../assts/icons/dots.svg";
 
 export const projects = [
   {
-    name: "react chat application",
+    name: "chatter",
     img: chatter,
     technologies: [
       { name: "React.js" },
@@ -42,7 +42,7 @@ export const projects = [
     url2: "#",
   },
   {
-    name: "react cli",
+    name: "/.ecom./",
     img: chatter,
     technologies: [
       { name: "React.js" },
