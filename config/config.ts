@@ -1,6 +1,7 @@
 import chatter from "../assts/images/chatter.png";
 import netflix from "../assts/images/netflix.png";
 import portfolio from "../assts/images/portfolio.png";
+import ecom from "../assts/images/ecom.png";
 
 import dots from "../assts/icons/dots.svg";
 
@@ -42,17 +43,17 @@ export const projects = [
     url2: "#",
   },
   {
-    name: "/.ecom./",
-    img: chatter,
+    name: "ecom",
+    img: ecom,
     technologies: [
-      { name: "React.js" },
-      { name: "Styled-Components" },
-      { name: "Node.js" },
-      { name: "Express" },
-      { name: "Mongodb" },
+      { name: "Next.js" },
+      { name: "TailwindCSS" },
+      { name: "Stripe" },
+      // { name: "Express" },
+      // { name: "Mongodb" },
     ],
-    url1: "https://github.com/ekanshuj/react-chat-application",
-    url2: "#",
+    url1: "https://github.com/ekanshuj/ecom",
+    url2: "https://ecom-ekanshuj.vercel.app/",
   },
 ];
 
