@@ -30,18 +30,18 @@ export const projects = [
     url1: "https://github.com/ekanshuj/react-netflix-clone",
     url2: "https://react-netflix-ekanshuj.web.app",
   },
-  {
-    name: "next portfolio",
-    img: portfolio,
-    technologies: [
-      { name: "Next.js" },
-      { name: "TailwindCSS" },
-      { name: "Framer-Motion" },
-      // { name: "Sanity" },
-    ],
-    url1: "https://github.com/ekanshuj/nextjs-portfolio",
-    url2: "#",
-  },
+  // {
+  //   name: "next portfolio",
+  //   img: portfolio,
+  //   technologies: [
+  //     { name: "Next.js" },
+  //     { name: "TailwindCSS" },
+  //     { name: "Framer-Motion" },
+  //     { name: "Sanity" },
+  //   ],
+  //   url1: "https://github.com/ekanshuj/nextjs-portfolio",
+  //   url2: "#",
+  // },
   {
     name: "ecom",
     img: ecom,
