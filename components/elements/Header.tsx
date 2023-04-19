@@ -28,7 +28,7 @@ const Header = (props: Props) => {
           strokeLinejoin="round"
           strokeWidth="2"
           className={`w-11 h-11 ${
-            theme === "light" ? "text-black" : "text-white"
+            theme === "dark" ? "text-white" : "text-black"
           } p-2`}
           viewBox="0 0 24 24"
         >

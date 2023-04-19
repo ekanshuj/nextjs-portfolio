@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
     <footer className="flex justify-center items-center flex-col px-2 sm:max-w-[75rem] mx-auto">
       <div
         className={`flex justify-between items-center flex-col sm:flex-row flex-wrap w-full border-x-2 ${
-          theme === "light" ? "border-black" : "border-white"
+          theme === "dark" ? "border-white" : "border-black"
         }`}
       >
         <div className=" px-0 sm:my-0 sm:px-2">
@@ -28,7 +28,7 @@ const Footer = (props: Props) => {
           strokeLinejoin="round"
           strokeWidth="2"
           className={`w-11 h-11 ${
-            theme === "light" ? "text-black" : "text-white"
+            theme === "dark" ? "text-white" : "text-black"
           } p-2`}
           viewBox="0 0 24 24"
         >
