@@ -22,12 +22,12 @@ const Others = (props: Props) => {
             return (
               <div
                 key={i}
-                className="border-[2.5px] rounded-xl dark:border-white border-black max-w-full md:max-w-[23.275rem] lg:max-w-[31.275rem] xl:w-[25.275rem] p-1"
+                className="border-[2.5px] rounded-xl dark:border-white border-black flex-[1_1_25.275rem] p-1"
               >
                 <header className="flex items-center justify-start border-b-2 border-black dark:border-white">
                   <Image src={icon} alt="icon" className="pl-1" />
                 </header>
-                <article className="flex items-center justify-center flex-col">
+                <article className="flex items-center justify-center flex-col flex-wrap">
                   <div className="flex items-center justify-between w-full px-1 my-3">
                     <div>
                       <h1 className="font-shadow text-2xl tracking-[2px] font-black underline">
@@ -42,7 +42,7 @@ const Others = (props: Props) => {
                       />
                     </div>
                   </div>
-                  <div>
+                  <div className="text-center">
                     <h1 className="text-lg px-1">{description}</h1>
                   </div>
                 </article>

@@ -1,6 +1,5 @@
 import chatter from "../assts/images/chatter.png";
 import netflix from "../assts/images/netflix.png";
-import portfolio from "../assts/images/portfolio.png";
 import ecom from "../assts/images/ecom.png";
 
 import dots from "../assts/icons/dots.svg";
@@ -30,18 +29,6 @@ export const projects = [
     url1: "https://github.com/ekanshuj/react-netflix-clone",
     url2: "https://react-netflix-ekanshuj.web.app",
   },
-  // {
-  //   name: "next portfolio",
-  //   img: portfolio,
-  //   technologies: [
-  //     { name: "Next.js" },
-  //     { name: "TailwindCSS" },
-  //     { name: "Framer-Motion" },
-  //     { name: "Sanity" },
-  //   ],
-  //   url1: "https://github.com/ekanshuj/nextjs-portfolio",
-  //   url2: "#",
-  // },
   {
     name: "ecom",
     img: ecom,
@@ -49,8 +36,6 @@ export const projects = [
       { name: "Next.js" },
       { name: "TailwindCSS" },
       { name: "Stripe" },
-      // { name: "Express" },
-      // { name: "Mongodb" },
     ],
     url1: "https://github.com/ekanshuj/ecom",
     url2: "https://ecom-ekanshuj.vercel.app/",
@@ -62,45 +47,35 @@ export const stuffs = [
     icon: dots,
     name: "first-contributions",
     url: "https://github.com/ekanshuj/first-contributions",
-    description: "Help beginners to contribute to open source projects",
+    description:
+      "First Contributions is a beginner-friendly GitHub repository that provides a step-by-step guide for making your first contribution to an open-source project and can be used to showcase your involvement in the open-source community on your portfolio website",
   },
   {
     icon: dots,
     name: "youtube-ui-clone",
     url: "https://github.com/ekanshuj/youtube-ui-clone",
-    description: "NO Framework pure HTML, SCSS, JS",
-  },
-  {
-    icon: dots,
-    name: "github-readme-stats",
-    url: "https://github.com/ekanshuj/github-readme-stats",
-    description: "Get dynamically generated GitHub stats on your READMEs!",
+    description:
+      "UI clone of the youTube website using vanilla javaScript, replicating the YouTube website's user interface, utilizing HTML and SCSS to achieve the design layout and styling",
   },
   {
     icon: dots,
     name: "oaiig",
-    url: "https://github.com/ekanshuj/node-books",
+    url: "https://github.com/ekanshuj/oaiig",
     description:
-      "Open AI Image Generator - Generate images using OpenAI's DALL-E 2.0",
+      "Open AI Image Generator is a web application that leverages the OpenAI DALL-E 2 API to generate images based on user-defined prompts using AI",
   },
   {
     icon: dots,
     name: "scrapper-api",
     url: "https://github.com/ekanshuj/scrapper-api",
-    description: "Crawl web pages and search data using api proxy!",
+    description:
+      "A web server Proxy API to crawl web pages over the internet with a simple API call for a variety of purposes, such as data mining, data analysis, or data visualization",
   },
   {
     icon: dots,
-    name: "react/stytch",
+    name: "react-stytch",
     url: "https://github.com/ekanshuj/react-passwordless-authentication",
     description:
-      "Build simple onboarding and authentication experiences with Stytch’s flexible API and SDKs",
-  },
-  {
-    icon: dots,
-    name: "react-slider",
-    url: "https://github.com/ekanshuj/react-slider",
-    description:
-      "A simple react-slider-animation using React Framer-Motion Library",
+      "Passwordless Authentication in react. Stytch's API and SDKs help you deliver secure, intuitive auth your customers will love, with tools your team will thank you for.",
   },
 ];
