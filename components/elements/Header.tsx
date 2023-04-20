@@ -13,11 +13,11 @@ const Header = (props: Props) => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <header className="flex justify-between items-center px-2 py-2 sm:py-4 sm:px-2 sm:max-w-[75rem] mx-auto absolute inset-x-0 top-0">
+    <header className="flex justify-between items-center px-2 sm:px-2 max-w-6xl mx-auto h-[10dvh]">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
-        transition={{ duration: 1.1 }}
+        transition={{ duration: 1.3 }}
         className="flex justify-center items-center"
       >
         <svg
@@ -28,7 +28,7 @@ const Header = (props: Props) => {
           strokeLinejoin="round"
           strokeWidth="2"
           className={`w-11 h-11 ${
-            theme === "dark" ? "text-white" : "text-black"
+            theme === "dark" ? "text-gray-400" : "text-black"
           } p-2`}
           viewBox="0 0 24 24"
         >
@@ -47,10 +47,15 @@ const Header = (props: Props) => {
           url="https://github.com/ekanshuj"
           bgColor="transparent"
           fgColor={theme === "dark" ? "gray" : "#111827"}
-          className=""
           style={{ height: "3rem", width: "3rem" }}
         />
-        {/* </div> */}
+        <SocialIcon
+          url="mailto:contact@ekanshuin.tech"
+          bgColor="transparent"
+          network="mailto"
+          fgColor={theme === "dark" ? "gray" : "#111827"}
+          style={{ height: "3.5rem", width: "3.5rem" }}
+        />
       </motion.div>
       <motion.div
         initial={{ x: 500, opacity: 0, scale: 0.5 }}

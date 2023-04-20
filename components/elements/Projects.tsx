@@ -11,14 +11,13 @@ const Projects = (props: Props) => {
     <section className="min-h-screen dark:bg-black bg-[#FFFFFF] my-5">
       <div>
         <div className="flex items-center justify-center sm:justify-start flex-wrap py-3">
-          <h1 className="sm:text-4xl text-[1.5rem] font-black text-white bg-gray-900 font-shadow tracking-[9px] px-4 sm:hidden text-center">
+          <h1 className="text-xl sm:text-4xl font-black text-white bg-gray-900 font-shadow tracking-[9px] px-4 sm:hidden text-center">
             Things I’ve Built
           </h1>
-          <h1 className="sm:text-4xl text-[1.7rem] font-black text-white bg-gray-900 font-shadow tracking-[9px] px-4 hidden sm:block">
+          <h1 className="text-xl sm:text-4xl font-black text-white bg-gray-900 font-shadow tracking-[9px] px-4 hidden sm:block">
             &#9679;Things I’ve Built
           </h1>
         </div>
-        {/* BLUR OVER OBJECT ON RESPONSIVE <ERROR></ERROR> */}
         <div className="flex items-center justify-center flex-col container mx-auto">
           {projects.map(({ name, img, technologies, url1, url2 }, i) => {
             return (
@@ -31,14 +30,14 @@ const Projects = (props: Props) => {
                   </div>
                   <div className="flex items-center justify-evenly flex-wrap">
                     <div>
-                      <Image src={img} alt="lord" />
+                      <Image src={img} alt="projects" />
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-wrap">
                     {technologies.map(({ name }, i) => {
                       return (
                         <p
-                          className=" text-black dark:text-white leading-relaxed text-base sm:text-lg font-bold font-shadow tracking-[3px] my-1 mx-2"
+                          className=" text-black dark:text-white leading-relaxed text-[0.85rem] sm:text-lg font-bold font-shadow tracking-[3px] my-[0.125rem] px-2"
                           key={i}
                         >
                           {name}
@@ -71,6 +70,3 @@ const Projects = (props: Props) => {
 };
 
 export default Projects;
-
-// "text-white text-xl uppercase font-black mb-2 font-shadow tracking-[4px]
-// leading-relaxed text-base font-shadow tracking-[3px]"

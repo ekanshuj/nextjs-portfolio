@@ -12,8 +12,8 @@ const Home: NextPage = () => {
         <title>Ekanshu Joshi</title>
         <meta name="description" content="Ekanshu Joshi Portfolio Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="https://fav.farm/🇮🇳" />
       </Head>
-      {/* <Script type='text/javascript' src="./index/animate.js"></Script> */}
       <main className="w-full mx-auto min-h-screen overflow-x-hidden bg-[#E7F2F5] dark:bg-black dark:text-white">
         <Header />
         <Hero />

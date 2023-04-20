@@ -9,20 +9,20 @@ export const projects = [
     name: "chatter",
     img: chatter,
     technologies: [
-      { name: "React.js" },
+      { name: "ReactJs" },
       { name: "Styled-Components" },
-      { name: "Node.js" },
+      { name: "NodeJs" },
       { name: "Express" },
       { name: "Mongodb" },
     ],
     url1: "https://github.com/ekanshuj/react-chat-application",
-    url2: "#",
+    url2: "https://chatter-ekanshuj.netlify.app/",
   },
   {
     name: "react netflix",
     img: netflix,
     technologies: [
-      { name: "React.js" },
+      { name: "ReactJs" },
       { name: "Styled-Components" },
       { name: "Firebase" },
     ],
@@ -33,7 +33,7 @@ export const projects = [
     name: "ecom",
     img: ecom,
     technologies: [
-      { name: "Next.js" },
+      { name: "NextJs" },
       { name: "TailwindCSS" },
       { name: "Stripe" },
     ],
