@@ -1,9 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
-// import Script from "next/script";
 import { Header, Hero, Projects, Footer, Tagline, Others } from "../components";
 import Head from "next/head";
-// import { useTheme } from "next-themes";
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +10,7 @@ const Home: NextPage = () => {
         <title>Ekanshu Joshi</title>
         <meta name="description" content="Ekanshu Joshi Portfolio Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="https://fav.farm/🇮🇳" />
+        <link rel="icon" href="https://fav.farm/👨‍💻" />
       </Head>
       <main className="w-full mx-auto min-h-screen overflow-x-hidden bg-[#E7F2F5] dark:bg-black dark:text-white">
         <Header />

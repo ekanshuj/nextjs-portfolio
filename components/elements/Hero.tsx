@@ -16,7 +16,13 @@ const Hero = (props: Props) => {
   return (
     <section className="flex items-center justify-center flex-col h-[90dvh]">
       <div className="flex items-center justify-center">
-        <Image src={coddy} width={400} height={300} alt="coddy" priority />
+        <Image
+          loading="lazy"
+          src={coddy}
+          width={400}
+          height={300}
+          alt="coddy"
+        />
       </div>
       <div className="flex flex-col items-center justify-center">
         <h3 className="text-xl font-shadow uppercase tracking-[9.5px] font-bold">

@@ -30,7 +30,7 @@ const Projects = (props: Props) => {
                   </div>
                   <div className="flex items-center justify-evenly flex-wrap">
                     <div>
-                      <Image src={img} alt="projects" />
+                      <Image loading="lazy" src={img} alt="projects" />
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-wrap">
