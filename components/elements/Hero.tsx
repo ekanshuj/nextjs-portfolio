@@ -14,7 +14,7 @@ const Hero = (props: Props) => {
     loop: 0,
   });
   return (
-    <section className="flex items-center justify-center flex-col h-[90dvh]">
+    <section className="flex items-center justify-center flex-col h-[90dvh] ">
       <div className="flex items-center justify-center">
         <Image
           loading="lazy"

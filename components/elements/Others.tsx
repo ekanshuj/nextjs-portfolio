@@ -22,7 +22,7 @@ const Others = (props: Props) => {
             return (
               <div
                 key={i}
-                className="border-[2.5px] rounded-xl dark:border-white border-black flex-[1_1_25.275rem] p-1"
+                className="border-[3px] rounded-xl dark:border-white border-black flex-[1_1_25.275rem] p-1"
               >
                 <header className="flex items-center justify-start border-b-2 border-black dark:border-white">
                   <Image src={icon} alt="icon" className="pl-1" />

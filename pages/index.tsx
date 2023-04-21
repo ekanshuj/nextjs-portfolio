@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="https://fav.farm/👨‍💻" />
       </Head>
-      <main className="w-full mx-auto min-h-screen overflow-x-hidden bg-[#E7F2F5] dark:bg-black dark:text-white">
+      <main className="w-full mx-auto min-h-screen bg-[#E7F2F5] dark:bg-black dark:text-white">
         <Header />
         <Hero />
         <Projects />
