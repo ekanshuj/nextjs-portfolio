@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
   const { theme } = useTheme();
   return (
     <footer className="flex justify-center items-center flex-col px-2 sm:max-w-[75rem] mx-auto">
-      <div
+      {/* <div
         className={`flex justify-between items-center flex-col sm:flex-row flex-wrap w-full border-x-2 ${
           theme === "dark" ? "border-white" : "border-black"
         }`}
@@ -34,7 +34,7 @@ const Footer = (props: Props) => {
         >
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
-      </div>
+      </div> */}
       <div className="pt-4 sm:pt-2">
         <p className="font-shadow text-base sm:text-xl tracking-[2px] font-semibold">
           Made with ❤️ in India 🇮🇳

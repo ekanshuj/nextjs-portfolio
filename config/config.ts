@@ -48,7 +48,7 @@ export const stuffs = [
     name: "first-contributions",
     url: "https://github.com/ekanshuj/first-contributions",
     description:
-      "First Contributions is a beginner-friendly GitHub repository that provides a step-by-step guide for making your first contribution to an open-source project and can be used to showcase your involvement in the open-source community on your portfolio website.",
+      "First Contributions is a beginner-friendly GitHub repository that provides a step-by-step guide for making your first contribution to an open-source project and can be used to showcase your involvement in the open-source community on your portfolio website.cd",
   },
   {
     icon: dots,
